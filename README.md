@@ -6,10 +6,10 @@ Due to the file size limit, part of the Agora plugin cannot be direclt pushed, i
 
 ## Some important features and plugins
 - The Unity plugin to generate the avatar: [Avatar SDK](https://avatarsdk.com/)
-> Process to generate a avatar suitable for LipSync
-> 1. Create an account under Avatar SDK(remember to unsubscribe! Otherwise it will automatically charge you money!!!)
-> 2. Select the bust option before uploading the image
-> 3. Select the blendshape option and export as one model 
+  Process to generate a avatar suitable for LipSync
+  1. Create an account under Avatar SDK(remember to unsubscribe! Otherwise it will automatically charge you money!!!)
+  2. Select the bust option before uploading the image
+  3. Select the blendshape option and export as one model 
 
 - The Unity plugin for lip synchronization: [SALSA LipSync](https://crazyminnowstudio.com/docs/salsa-lip-sync/modules/overview/)
 
