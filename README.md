@@ -43,14 +43,49 @@ Note: We are using TCP socket connection between patient side and therapist side
 - The Unity plugin for lip synchronization: [SALSA LipSync](https://crazyminnowstudio.com/docs/salsa-lip-sync/modules/overview/)
 
 ## Detailed introduction on the two projects
-### Patient Side
-Important Scenes are under Assets/Scenes folder
-Selection—the starting menu for therapist to make a selection based on he/she preference
-In this scene you have several drop-down selections that could switch between
+### Therapist Side
+Important Scenes are under Assets/Scenes folder.
+Selection Scene: the starting menu for therapist to make a selection based on he/she preference.
+In this scene you have several drop-down selections that could switch between.
 The switch between Thought Echo and Avatar Therapy will lead you to scenes with different therapy method.
 The selection on server will determine the connection to different backend. (currently the code is only on Unicorn)
 
+<img src="img/img1.png" width="400"/>
+
+#### ThoughtEcho Mode
+On entering the ThoughtEcho scene, therapist will be able to control the start and end of the session. Therapist will not be involved in communicating with patients according to the design guideline.
+
+<img src="img/img2.png" width="400"/>
 
 
+#### Avatar Therapy Mode
+There are 2 different modes under the Avatar Therapy session
+The design purpose of Avatar Mode is to
+In cases where patient prefer not seeing the avatar during the session, therapist could switch to Therapist mode where no avatar will appear on the screen.
+The therapist session also has features of speech detection for enhancing user experience.
+When therapist decide to end the session, he/she can press the end button and the scene will automatically switch on patient’s side
 
+<img src="img/img3.png" height="150"><img src="img/img4.png" height="150"><img src="img/img5.png" height="150">
 
+### Patient side
+Welcome Scene: 
+Remember to press the start button before pressing the start button in Therapist’s project
+
+<img src="img/img6.png" width="400"/>
+
+#### ThoughtEcho mode
+When therapist select Therapist mode, the scene in front of patient will be directly switched to the scene designed for Therapist mode.
+We’ve generated several different avatars using Avatar SDK and the scenes inside are called TE1-TE8
+You can switch the avatar you want by modifying the Welcome status script from Welcome Scene>Canvas->Status and go to the inspector to see this component.
+
+<img src="img/img7.png" width="400"/>
+
+#### Avatar Therapy mode
+
+The current scene for Avatar Session is “ATF” and the scene for Therapist Session is “ATT”.
+
+<img src="img/img8.png" height="150"> <img src="img/img9.png" height="150">
+
+End Scene:
+When the therapist decide to end the session, scene “End” will appppear on the screen.
+<img src="img/img10.png" width="400"/>
