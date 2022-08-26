@@ -65,7 +65,7 @@ In cases where patient prefer not seeing the avatar during the session, therapis
 The therapist session also has features of speech detection for enhancing user experience.
 When therapist decide to end the session, he/she can press the end button and the scene will automatically switch on patient’s side
 
-<img src="img/img3.png" height="150"><img src="img/img4.png" height="150"><img src="img/img5.png" height="150">
+<img src="img/img3.png" height="120"><img src="img/img4.png" height="120"><img src="img/img5.png" height="120">
 
 ### Patient side
 Welcome Scene: 
